@@ -37,14 +37,13 @@ def profissionais():
             profissional = col.replace(f" {ano}", "")  # Extrai o nome do profissional da coluna
             quantidade = dados_filtrados[col].sum()  # Soma das quantidades para o ano e município
             tabela.append([profissional, quantidade])
-        
-        # Convertendo para tabela html-css
-        resultado = pd.DataFrame(tabela, columns=["Profissional de Saúde", "Quantidade"]).to_html(
-            classes='table-auto border-collapse border border-gray-300', index=False, escape=False
-        )
-    
+            
+        resultado = tabela
     return render_template("profissionais.html", municipios=municipios, anos=anos, resultado=resultado)
 
+@app.route('/saiba-mais')
+def saiba_mais():
+    return render_template('saiba-mais.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
