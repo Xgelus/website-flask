@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Básico</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <header class="bg-blue-600 text-white">
+    <nav class="container mx-auto p-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold">VitaStats</a>
+      <ul class="flex space-x-4">
+        <li><a href="/index" class="hover:text-gray-300">Início</a></li>
+        <li><a href="/sobre" class="hover:text-gray-300">Sobre</a></li>
+        <li><a href="#" class="hover:text-gray-300">Serviços</a></li>
+        <li><a href="#" class="hover:text-gray-300">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <div class="container mx-auto p-6">
+        <h1 class="text-2xl font-bold mb-6">Gráficos de Profissionais de Saúde</h1>
+
+        <!-- Formulário para selecionar município e ano -->
+        <form method="POST" class="mb-6">
+            <label for="municipio" class="mr-2">Selecione o Município:</label>
+            <select name="municipio" id="municipio" class="border p-2 rounded">
+                {% for municipio in municipios %}
+                    <option value="{{ municipio }}">{{ municipio }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="ano" class="ml-4 mr-2">Selecione o Ano:</label>
+            <select name="ano" id="ano" class="border p-2 rounded">
+                {% for ano in anos %}
+                    <option value="{{ ano }}">{{ ano }}</option>
+                {% endfor %}
+            </select>
+
+            <button type="submit" class="ml-4 bg-blue-500 text-white p-2 rounded">Filtrar</button>
+        </form>
+
+        <!-- Exibir a tabela filtrada -->
+        {% if resultado %}
+            <div class="overflow-x-auto">
+                {{ resultado | safe }}  <!-- Exibe a tabela gerada -->
+            </div>
+        {% else %}
+            <p class="text-gray-500">Por favor, selecione um município e um ano para ver os dados.</p>
+        {% endif %}
+    </div>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 VitaStats. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
