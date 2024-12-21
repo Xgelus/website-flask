@@ -1,0 +1,533 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Mata Grande)",
+                "Município": " Mata Grande ",
+                "Endereço": " Rua Cleto Campelo, s/n, Bairro Centro - CEP: 57540-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.73356147314171,
+                    -9.11911248758197,
+                    -1082.270014844398
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Girau do Ponciano)",
+                "Município": " Girau do Ponciano ",
+                "Endereço": " Rua José Martins, nº 113, Bairro Centro - CEP: 57000-360 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.82150577736012,
+                    -9.885110326047633,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Traipú)",
+                "Município": " Traipú ",
+                "Endereço": " Av. Maria Lima Dias, s/n, Bairro Centro - CEP: 57370-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.99935918758607,
+                    -9.963941650559264,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Porto Calvo) (Localização Aproximada)",
+                "Município": " Porto Calvo ",
+                "Endereço": " Loteamento Jorge Alves Cordeiro s/n, bairro: Manganzala "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.41461698110124,
+                    -9.049772031189626,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Regionalizada do SAMU (Palmeira dos Índios)",
+                "Município": " Palmeira dos Índios ",
+                "Endereço": " Av. Muniz Falcão (BR-316), s/n, Bairro São Cristóvão - CEP: 57600-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.62126443146988,
+                    -9.424016671172383,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Atalaia)",
+                "Município": " Atalaia ",
+                "Endereço": " Loteamento Santa Inês S/N- Bairro: José Paulino "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.99929618750586,
+                    -9.512174257501096,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (União dos Palmares)",
+                "Município": " União dos Palmares ",
+                "Endereço": " BR 104 - KM 36 - Posto da PRF (Polícia Rodoviária Federal) "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.02590495136109,
+                    -9.171585809218318,
+                    -8.113220175128012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Viçosa)",
+                "Município": " Viçosa ",
+                "Endereço": " Travessa Pedro Barreto – s/n – Centro "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.24186032774703,
+                    -9.369957273393988,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (São Miguel dos Campos)",
+                "Município": " Sao Miguel dos Campos ",
+                "Endereço": " Lot Hélio Jatobá 2 – Quadra H, nº 20 –  Bairro de Fátima "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.10678077304953,
+                    -9.795303172518429,
+                    -15.31050069948383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Coruripe)",
+                "Município": " Coruripe ",
+                "Endereço": " Rua Euclides Baeta S/N – Bairro: Comendador Tércio Wanderley "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.17959438778425,
+                    -10.11962267314348,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Joaquim Gomes) (Localização Aproximada)",
+                "Município": " Joaquim Gomes ",
+                "Endereço": " Avenida Ibi Gato Falcão,  s/n bairro: Asplana  "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.74970230357277,
+                    -9.1323754576962,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (São Luis do Quitunde)",
+                "Município": " São Luis do Quitunde ",
+                "Endereço": " Rua Dr. Fernando Sarmento s/n - Centro  "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.56166073421552,
+                    -9.316240371104891,
+                    -1729.84641411152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Maragogi)",
+                "Município": " Maragogi ",
+                "Endereço": " AL 101 Norte, nº 196 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.22534590481464,
+                    -9.020113468072134,
+                    -1675.177168410628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Teotônio Vilela)",
+                "Município": " Teotônio Vilela ",
+                "Endereço": " BR 101 KM 107 - Alto da Rosa s/n  "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.36330128156286,
+                    -9.899930652751564,
+                    -1679.245010925393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Rio Largo)",
+                "Município": " Rio Largo ",
+                "Endereço": " Avenida Presidente Fernando Collor de Melo - nº 74, bairro Antônio Lins de Souza "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.81741147295375,
+                    -9.507429471931541,
+                    -1645.645561896895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Murici) (Localização Aproximada)",
+                "Município": " Murici ",
+                "Endereço": " Rua Dr. Mário Leão, S/N – Bairro: Campo Grande "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.9435584487541,
+                    -9.314173619460302,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Colônia Leopoldina) (Localização Aproximada)",
+                "Município": " Colônia Leopoldina ",
+                "Endereço": " Rua José Maximo de S. Filho nº 1111 – Bairro: Centro "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.71530212937081,
+                    -8.91029231808626,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Barra de Santo Antônio)",
+                "Município": " Barra de Santo Antônio ",
+                "Endereço": " AL 101 Norte KM 31 – Povoado de Santa Luzia "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.52052347830669,
+                    -9.433683916505649,
+                    -1730.911024640317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Marechal Deodoro)",
+                "Município": " Marechal Deodoro ",
+                "Endereço": " Rua dos Cajueiros S/N – Bairro – Vila Altina "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -35.89373454897437,
+                    -9.741386246792507,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Regionalizada do SAMU (Pão de Açúcar)",
+                "Município": " Pão Açúcar ",
+                "Endereço": " Avenida Braulio Cavalcante, Nº 666, Centro, CEP: 57400-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.43364352704964,
+                    -9.749756355952929,
+                    -1793.655686910077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Regionalizada do SAMU (Delmiro Gouveia)",
+                "Município": " Delmiro Gouveia ",
+                "Endereço": " Rua Manoel Ribeiro, s/n, Bom Sossego - CEP: 57480-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.99454456166917,
+                    -9.373235796493454,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Ouro Branco)",
+                "Município": " Ouro Branco ",
+                "Endereço": " Rua do Comércio, s/n, Centro, CEP: 57525-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.35572588972934,
+                    -9.161434546338675,
+                    -1318.005221785772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Campo Alegre)",
+                "Município": " Campo Alegre ",
+                "Endereço": " Rua Vereador Pereira Lima, s/n, Centro, CEP: 57250-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.35293632662166,
+                    -9.779546055891599,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (São José da Tapera)",
+                "Município": " São José da Tapera ",
+                "Endereço": " Av. Manuel Maciano, s/n, Bairro Dez - CEP: 57445-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.37896540790144,
+                    -9.553206951864311,
+                    -1525.922314634192
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (São Sebastião)",
+                "Município": " São Sebastião ",
+                "Endereço": " Rua Agripino SIlveira, s/n, Bairro Cruzeiro - CEP: 57275-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.55048941570419,
+                    -9.93027159354307,
+                    -1619.611090220712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Piranhas)",
+                "Município": " Piranhas ",
+                "Endereço": " Av. Batalha, s/n, Bairro N. Senhora da Saúde - CEP: 57460-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.76047734538462,
+                    -9.60490564410508,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Olho d'Água do Casado)",
+                "Município": " Olho d'Água do Casado ",
+                "Endereço": " Rua João Francisco Soares, s/n, Bairro Centro - CEP: 57470-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.83229619253612,
+                    -9.500536400653274,
+                    -1527.46145633345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Batalha)",
+                "Município": " Batalha  ",
+                "Endereço": " Rua 22 de Dezembro, s/n, Bairro Centro - CEP: 57420-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.12798028092265,
+                    -9.673185306781745,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Inhapi)",
+                "Município": " Inhapi ",
+                "Endereço": " Rua Senador Rui Palmeira, nº 113, Bairro Centro - CEP: 57545-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.75014893346089,
+                    -9.22536787345779,
+                    -1337.707775260298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (Cacimbinhas)",
+                "Município": " Cacimbinha ",
+                "Endereço": " Rua N. Senhora da Penha, s/n, Bairro Centro - CEP: 57570-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.99242360755387,
+                    -9.398151317796168,
+                    -1484.330422863385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Regionalizada do SAMU (Santana do Ipanema)",
+                "Município": " Santana do Ipanema ",
+                "Endereço": " Rua Lions, n° 64, Bairro Camuxinga - CEP: 57500-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.25452040169292,
+                    -9.366020118395678,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Regionalizada do SAMU (Penedo)",
+                "Município": " Penedo ",
+                "Endereço": " Rua Duque de Caxias, s/n, Bairro Santa Luzia - CEP: 57200-000 "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.56029669257526,
+                    -10.28287934187705,
+                    -1850.520319757909
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Nome": "Base Descentralizada do SAMU (P. Real do Colégio)",
+                "Município": "Porto Real do Colégio ",
+                "Endereço": " Rua Barão do Rio Branco, s/n, (Conjuto Tancredo Neves) Bairro Centro - CEP: 57290-000  "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.83549375153491,
+                    -10.18934508287816,
+                    -1884.313236097019
+                ]
+            }
+        }
+    ]
+}
