@@ -101,5 +101,9 @@ def bases_samu():
     m.save(map_path)
     return render_template('bases-samu.html', map_path=map_path)
 
+@app.route('/leitos-de-internacao')
+def leitos_de_internacao():
+    return render_template('leitos-de-internação.html')
+
 if (__name__ == "__main__"):
     app.run(debug=True)
