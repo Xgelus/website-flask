@@ -105,5 +105,9 @@ def bases_samu():
 def leitos_de_internacao():
     return render_template('leitos-de-internação.html')
 
+@app.route('/postos-de-saude')
+def postos_de_saude():
+    return render_template('postos-de-saude.html')
+
 if (__name__ == "__main__"):
     app.run(debug=True)
