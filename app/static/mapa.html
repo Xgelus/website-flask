@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2626f59e0086bfda6effe7a8f3763f7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2626f59e0086bfda6effe7a8f3763f7c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2626f59e0086bfda6effe7a8f3763f7c = L.map(
+                "map_2626f59e0086bfda6effe7a8f3763f7c",
+                {
+                    center: [-9.5, -36.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1731ac28f32cce339c38edc4b5a521bd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1731ac28f32cce339c38edc4b5a521bd.addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+            var marker_661dec5dd05a588e936080db57bf8837 = L.marker(
+                [-9.11911248758197, -37.73356147314171],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_08299cec2c1ab7f85d13a476899d8301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51dfadeb703223d7e14e89486fd30b84 = $(`<div id="html_51dfadeb703223d7e14e89486fd30b84" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Mata Grande)<br> Rua Cleto Campelo, s/n, Bairro Centro - CEP: 57540-000 <br> Mata Grande </div>`)[0];
+                popup_08299cec2c1ab7f85d13a476899d8301.setContent(html_51dfadeb703223d7e14e89486fd30b84);
+            
+        
+
+        marker_661dec5dd05a588e936080db57bf8837.bindPopup(popup_08299cec2c1ab7f85d13a476899d8301)
+        ;
+
+        
+    
+    
+            var marker_7736f3d7d02ab2b854207b1f513a51cf = L.marker(
+                [-9.885110326047633, -36.82150577736012],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_1e34a39e77b794ab407d942fb0a5498c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57f569cb13379728c0a9c8cd584c131b = $(`<div id="html_57f569cb13379728c0a9c8cd584c131b" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Girau do Ponciano)<br> Rua José Martins, nº 113, Bairro Centro - CEP: 57000-360 <br> Girau do Ponciano </div>`)[0];
+                popup_1e34a39e77b794ab407d942fb0a5498c.setContent(html_57f569cb13379728c0a9c8cd584c131b);
+            
+        
+
+        marker_7736f3d7d02ab2b854207b1f513a51cf.bindPopup(popup_1e34a39e77b794ab407d942fb0a5498c)
+        ;
+
+        
+    
+    
+            var marker_87f945e6a11e85814f7087a6469f92af = L.marker(
+                [-9.963941650559264, -36.99935918758607],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_2eee42416ddb022061dd130408f019e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfb2f1edf6257d3d91c5164028afe07c = $(`<div id="html_cfb2f1edf6257d3d91c5164028afe07c" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Traipú)<br> Av. Maria Lima Dias, s/n, Bairro Centro - CEP: 57370-000 <br> Traipú </div>`)[0];
+                popup_2eee42416ddb022061dd130408f019e0.setContent(html_cfb2f1edf6257d3d91c5164028afe07c);
+            
+        
+
+        marker_87f945e6a11e85814f7087a6469f92af.bindPopup(popup_2eee42416ddb022061dd130408f019e0)
+        ;
+
+        
+    
+    
+            var marker_64e2efa3ca968f4f2b6bf0731ec83a79 = L.marker(
+                [-9.049772031189626, -35.41461698110124],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_5146a13e0e0ebe486c6405c867c57c15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1268d0c5915feee15416f9da8bbb5ed8 = $(`<div id="html_1268d0c5915feee15416f9da8bbb5ed8" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Porto Calvo) (Localização Aproximada)<br> Loteamento Jorge Alves Cordeiro s/n, bairro: Manganzala <br> Porto Calvo </div>`)[0];
+                popup_5146a13e0e0ebe486c6405c867c57c15.setContent(html_1268d0c5915feee15416f9da8bbb5ed8);
+            
+        
+
+        marker_64e2efa3ca968f4f2b6bf0731ec83a79.bindPopup(popup_5146a13e0e0ebe486c6405c867c57c15)
+        ;
+
+        
+    
+    
+            var marker_dbb14826aaee2ae51b1359da6c80dedc = L.marker(
+                [-9.424016671172383, -36.62126443146988],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_a32486dd81b5c5aeef299e4782e4f79f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_588c29c3c5eba7c2729431701aa52ce9 = $(`<div id="html_588c29c3c5eba7c2729431701aa52ce9" style="width: 100.0%; height: 100.0%;">Base Regionalizada do SAMU (Palmeira dos Índios)<br> Av. Muniz Falcão (BR-316), s/n, Bairro São Cristóvão - CEP: 57600-000 <br> Palmeira dos Índios </div>`)[0];
+                popup_a32486dd81b5c5aeef299e4782e4f79f.setContent(html_588c29c3c5eba7c2729431701aa52ce9);
+            
+        
+
+        marker_dbb14826aaee2ae51b1359da6c80dedc.bindPopup(popup_a32486dd81b5c5aeef299e4782e4f79f)
+        ;
+
+        
+    
+    
+            var marker_369161acb2678f90ec279a9eb7d96617 = L.marker(
+                [-9.512174257501096, -35.99929618750586],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_fdb0552e98ac130ea3e78fd93082f59e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c162e19ffecf16436a16704e1b36f12 = $(`<div id="html_1c162e19ffecf16436a16704e1b36f12" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Atalaia)<br> Loteamento Santa Inês S/N- Bairro: José Paulino <br> Atalaia </div>`)[0];
+                popup_fdb0552e98ac130ea3e78fd93082f59e.setContent(html_1c162e19ffecf16436a16704e1b36f12);
+            
+        
+
+        marker_369161acb2678f90ec279a9eb7d96617.bindPopup(popup_fdb0552e98ac130ea3e78fd93082f59e)
+        ;
+
+        
+    
+    
+            var marker_cfcdfc0532305b94bad1d0c2f68f0db9 = L.marker(
+                [-9.171585809218318, -36.02590495136109],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_353ce8ce8b105629ceb710dd82b665ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdbdbbe41ae2b2e2e987de9d3f1ff856 = $(`<div id="html_fdbdbbe41ae2b2e2e987de9d3f1ff856" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (União dos Palmares)<br> BR 104 - KM 36 - Posto da PRF (Polícia Rodoviária Federal) <br> União dos Palmares </div>`)[0];
+                popup_353ce8ce8b105629ceb710dd82b665ac.setContent(html_fdbdbbe41ae2b2e2e987de9d3f1ff856);
+            
+        
+
+        marker_cfcdfc0532305b94bad1d0c2f68f0db9.bindPopup(popup_353ce8ce8b105629ceb710dd82b665ac)
+        ;
+
+        
+    
+    
+            var marker_f2978f97c0d2a8ee5e47293fd162e3e4 = L.marker(
+                [-9.369957273393988, -36.24186032774703],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_562f48a82f1d94bfddb428680a16f6dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1afb3369ae32d15e29ed21576a960626 = $(`<div id="html_1afb3369ae32d15e29ed21576a960626" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Viçosa)<br> Travessa Pedro Barreto – s/n – Centro <br> Viçosa </div>`)[0];
+                popup_562f48a82f1d94bfddb428680a16f6dc.setContent(html_1afb3369ae32d15e29ed21576a960626);
+            
+        
+
+        marker_f2978f97c0d2a8ee5e47293fd162e3e4.bindPopup(popup_562f48a82f1d94bfddb428680a16f6dc)
+        ;
+
+        
+    
+    
+            var marker_e3845d2ab83f474ac59bb213e3b98717 = L.marker(
+                [-9.795303172518429, -36.10678077304953],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_d73ea0dac2d6d51281d24bfb25983ef0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bb7793527894f37a90cc0195ae3d269 = $(`<div id="html_8bb7793527894f37a90cc0195ae3d269" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (São Miguel dos Campos)<br> Lot Hélio Jatobá 2 – Quadra H, nº 20 –  Bairro de Fátima <br> Sao Miguel dos Campos </div>`)[0];
+                popup_d73ea0dac2d6d51281d24bfb25983ef0.setContent(html_8bb7793527894f37a90cc0195ae3d269);
+            
+        
+
+        marker_e3845d2ab83f474ac59bb213e3b98717.bindPopup(popup_d73ea0dac2d6d51281d24bfb25983ef0)
+        ;
+
+        
+    
+    
+            var marker_54b17e8f57b57ef97219e130a27d319a = L.marker(
+                [-10.11962267314348, -36.17959438778425],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_fb61e3526f51b8ed2f9a0be4b4c909ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a892d3c2a734aa35c18aa2f8a67d7ae9 = $(`<div id="html_a892d3c2a734aa35c18aa2f8a67d7ae9" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Coruripe)<br> Rua Euclides Baeta S/N – Bairro: Comendador Tércio Wanderley <br> Coruripe </div>`)[0];
+                popup_fb61e3526f51b8ed2f9a0be4b4c909ae.setContent(html_a892d3c2a734aa35c18aa2f8a67d7ae9);
+            
+        
+
+        marker_54b17e8f57b57ef97219e130a27d319a.bindPopup(popup_fb61e3526f51b8ed2f9a0be4b4c909ae)
+        ;
+
+        
+    
+    
+            var marker_c2d07c2fda87f87f7be0230af07aad8c = L.marker(
+                [-9.1323754576962, -35.74970230357277],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_0acc54dbbfb855a6236ad80fabbe353a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59ebea1d4b67c3a5bd9c0651c9fa9c29 = $(`<div id="html_59ebea1d4b67c3a5bd9c0651c9fa9c29" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Joaquim Gomes) (Localização Aproximada)<br> Avenida Ibi Gato Falcão,  s/n bairro: Asplana  <br> Joaquim Gomes </div>`)[0];
+                popup_0acc54dbbfb855a6236ad80fabbe353a.setContent(html_59ebea1d4b67c3a5bd9c0651c9fa9c29);
+            
+        
+
+        marker_c2d07c2fda87f87f7be0230af07aad8c.bindPopup(popup_0acc54dbbfb855a6236ad80fabbe353a)
+        ;
+
+        
+    
+    
+            var marker_ec2ec4f5825b8a9daeb6ca7b9c200f91 = L.marker(
+                [-9.316240371104891, -35.56166073421552],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_d48ce611a613cedbf09c9d0fdbc9e84c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d59a8c48d2cd8c8f751cfd69e8160621 = $(`<div id="html_d59a8c48d2cd8c8f751cfd69e8160621" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (São Luis do Quitunde)<br> Rua Dr. Fernando Sarmento s/n - Centro  <br> São Luis do Quitunde </div>`)[0];
+                popup_d48ce611a613cedbf09c9d0fdbc9e84c.setContent(html_d59a8c48d2cd8c8f751cfd69e8160621);
+            
+        
+
+        marker_ec2ec4f5825b8a9daeb6ca7b9c200f91.bindPopup(popup_d48ce611a613cedbf09c9d0fdbc9e84c)
+        ;
+
+        
+    
+    
+            var marker_257dc18f7a311f511ceabac2d5613527 = L.marker(
+                [-9.020113468072134, -35.22534590481464],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_53c27ee1381ca55552bf472b48f1a27c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10b60af47a35845410bd787162035d46 = $(`<div id="html_10b60af47a35845410bd787162035d46" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Maragogi)<br> AL 101 Norte, nº 196 <br> Maragogi </div>`)[0];
+                popup_53c27ee1381ca55552bf472b48f1a27c.setContent(html_10b60af47a35845410bd787162035d46);
+            
+        
+
+        marker_257dc18f7a311f511ceabac2d5613527.bindPopup(popup_53c27ee1381ca55552bf472b48f1a27c)
+        ;
+
+        
+    
+    
+            var marker_73e6ec06e89eb9e94f476cbeaa4e3fc8 = L.marker(
+                [-9.899930652751564, -36.36330128156286],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_a745e579d6b2a48dc5dc3b9c6f3603ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f07033ef6af700da2d1f283e96b0ee4 = $(`<div id="html_9f07033ef6af700da2d1f283e96b0ee4" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Teotônio Vilela)<br> BR 101 KM 107 - Alto da Rosa s/n  <br> Teotônio Vilela </div>`)[0];
+                popup_a745e579d6b2a48dc5dc3b9c6f3603ae.setContent(html_9f07033ef6af700da2d1f283e96b0ee4);
+            
+        
+
+        marker_73e6ec06e89eb9e94f476cbeaa4e3fc8.bindPopup(popup_a745e579d6b2a48dc5dc3b9c6f3603ae)
+        ;
+
+        
+    
+    
+            var marker_ce11d09ca63ce59c5f57cfeea86d5277 = L.marker(
+                [-9.507429471931541, -35.81741147295375],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_15f32168eaca8b5b2b51920c4baed046 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f4190d2f94ceb18702ed3421243f8e5 = $(`<div id="html_2f4190d2f94ceb18702ed3421243f8e5" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Rio Largo)<br> Avenida Presidente Fernando Collor de Melo - nº 74, bairro Antônio Lins de Souza <br> Rio Largo </div>`)[0];
+                popup_15f32168eaca8b5b2b51920c4baed046.setContent(html_2f4190d2f94ceb18702ed3421243f8e5);
+            
+        
+
+        marker_ce11d09ca63ce59c5f57cfeea86d5277.bindPopup(popup_15f32168eaca8b5b2b51920c4baed046)
+        ;
+
+        
+    
+    
+            var marker_9e9b92ca16fba70d34023ed52e62366d = L.marker(
+                [-9.314173619460302, -35.9435584487541],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_2dc1b8d913e56fbd18d0d4c6287b57f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b5b9c553034643836fa7a02434561fa = $(`<div id="html_9b5b9c553034643836fa7a02434561fa" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Murici) (Localização Aproximada)<br> Rua Dr. Mário Leão, S/N – Bairro: Campo Grande <br> Murici </div>`)[0];
+                popup_2dc1b8d913e56fbd18d0d4c6287b57f2.setContent(html_9b5b9c553034643836fa7a02434561fa);
+            
+        
+
+        marker_9e9b92ca16fba70d34023ed52e62366d.bindPopup(popup_2dc1b8d913e56fbd18d0d4c6287b57f2)
+        ;
+
+        
+    
+    
+            var marker_1d8e91fc905ad687fe0497f3b5d8a7a6 = L.marker(
+                [-8.91029231808626, -35.71530212937081],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_7cc299f7bc628bf715b0a36c382406af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc6cc4bdd77506bc3e8ad5c35b6f9dda = $(`<div id="html_bc6cc4bdd77506bc3e8ad5c35b6f9dda" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Colônia Leopoldina) (Localização Aproximada)<br> Rua José Maximo de S. Filho nº 1111 – Bairro: Centro <br> Colônia Leopoldina </div>`)[0];
+                popup_7cc299f7bc628bf715b0a36c382406af.setContent(html_bc6cc4bdd77506bc3e8ad5c35b6f9dda);
+            
+        
+
+        marker_1d8e91fc905ad687fe0497f3b5d8a7a6.bindPopup(popup_7cc299f7bc628bf715b0a36c382406af)
+        ;
+
+        
+    
+    
+            var marker_864ee5c0873c924a6a7522401d51cc82 = L.marker(
+                [-9.433683916505649, -35.52052347830669],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_9a9a8f7786131befd42e5b89bcc5ca93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3c17cbab374e9a811be2e8b78017739 = $(`<div id="html_c3c17cbab374e9a811be2e8b78017739" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Barra de Santo Antônio)<br> AL 101 Norte KM 31 – Povoado de Santa Luzia <br> Barra de Santo Antônio </div>`)[0];
+                popup_9a9a8f7786131befd42e5b89bcc5ca93.setContent(html_c3c17cbab374e9a811be2e8b78017739);
+            
+        
+
+        marker_864ee5c0873c924a6a7522401d51cc82.bindPopup(popup_9a9a8f7786131befd42e5b89bcc5ca93)
+        ;
+
+        
+    
+    
+            var marker_fedeb6caa271e406582a151c3702fa10 = L.marker(
+                [-9.741386246792507, -35.89373454897437],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_abd3efd70d09c90be37c78891f753dbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4663890b5a2f6bc5f717d19e33213405 = $(`<div id="html_4663890b5a2f6bc5f717d19e33213405" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Marechal Deodoro)<br> Rua dos Cajueiros S/N – Bairro – Vila Altina <br> Marechal Deodoro </div>`)[0];
+                popup_abd3efd70d09c90be37c78891f753dbb.setContent(html_4663890b5a2f6bc5f717d19e33213405);
+            
+        
+
+        marker_fedeb6caa271e406582a151c3702fa10.bindPopup(popup_abd3efd70d09c90be37c78891f753dbb)
+        ;
+
+        
+    
+    
+            var marker_10e2f9fc5a77453b23e26bd6422ce664 = L.marker(
+                [-9.749756355952929, -37.43364352704964],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_2ba3bc296cadd278cb424e1b97c65634 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2fc27c029182d1ca9e838c36c9c6447 = $(`<div id="html_b2fc27c029182d1ca9e838c36c9c6447" style="width: 100.0%; height: 100.0%;">Base Regionalizada do SAMU (Pão de Açúcar)<br> Avenida Braulio Cavalcante, Nº 666, Centro, CEP: 57400-000 <br> Pão Açúcar </div>`)[0];
+                popup_2ba3bc296cadd278cb424e1b97c65634.setContent(html_b2fc27c029182d1ca9e838c36c9c6447);
+            
+        
+
+        marker_10e2f9fc5a77453b23e26bd6422ce664.bindPopup(popup_2ba3bc296cadd278cb424e1b97c65634)
+        ;
+
+        
+    
+    
+            var marker_dfd4f79c4f536f3fc9815f4385bdb1a5 = L.marker(
+                [-9.373235796493454, -37.99454456166917],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_df6f31ec0c6d5a8c23cee4e2bb2c2dcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39598eb66da53402addc22a00e4a583d = $(`<div id="html_39598eb66da53402addc22a00e4a583d" style="width: 100.0%; height: 100.0%;">Base Regionalizada do SAMU (Delmiro Gouveia)<br> Rua Manoel Ribeiro, s/n, Bom Sossego - CEP: 57480-000 <br> Delmiro Gouveia </div>`)[0];
+                popup_df6f31ec0c6d5a8c23cee4e2bb2c2dcd.setContent(html_39598eb66da53402addc22a00e4a583d);
+            
+        
+
+        marker_dfd4f79c4f536f3fc9815f4385bdb1a5.bindPopup(popup_df6f31ec0c6d5a8c23cee4e2bb2c2dcd)
+        ;
+
+        
+    
+    
+            var marker_dfa82e32e0236a7f303e9a740640055e = L.marker(
+                [-9.161434546338675, -37.35572588972934],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_839e3f9fff0f0da74394a3fcb4bd4973 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e25ab242fa7289525e4653bf204d66e5 = $(`<div id="html_e25ab242fa7289525e4653bf204d66e5" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Ouro Branco)<br> Rua do Comércio, s/n, Centro, CEP: 57525-000 <br> Ouro Branco </div>`)[0];
+                popup_839e3f9fff0f0da74394a3fcb4bd4973.setContent(html_e25ab242fa7289525e4653bf204d66e5);
+            
+        
+
+        marker_dfa82e32e0236a7f303e9a740640055e.bindPopup(popup_839e3f9fff0f0da74394a3fcb4bd4973)
+        ;
+
+        
+    
+    
+            var marker_442734224474ae9c42ab905f2a98e040 = L.marker(
+                [-9.779546055891599, -36.35293632662166],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_9c1a29f0b0b60a00eb513e70d9965c57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_161bcb7cec20d44c7e92f908152284ef = $(`<div id="html_161bcb7cec20d44c7e92f908152284ef" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Campo Alegre)<br> Rua Vereador Pereira Lima, s/n, Centro, CEP: 57250-000 <br> Campo Alegre </div>`)[0];
+                popup_9c1a29f0b0b60a00eb513e70d9965c57.setContent(html_161bcb7cec20d44c7e92f908152284ef);
+            
+        
+
+        marker_442734224474ae9c42ab905f2a98e040.bindPopup(popup_9c1a29f0b0b60a00eb513e70d9965c57)
+        ;
+
+        
+    
+    
+            var marker_13c8a773d05c02b7a3fe6747b8a2e7ca = L.marker(
+                [-9.553206951864311, -37.37896540790144],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_e999351fde3ca2531745ae2b32d4ec7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4062994f814db05be50969c48e459eca = $(`<div id="html_4062994f814db05be50969c48e459eca" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (São José da Tapera)<br> Av. Manuel Maciano, s/n, Bairro Dez - CEP: 57445-000 <br> São José da Tapera </div>`)[0];
+                popup_e999351fde3ca2531745ae2b32d4ec7f.setContent(html_4062994f814db05be50969c48e459eca);
+            
+        
+
+        marker_13c8a773d05c02b7a3fe6747b8a2e7ca.bindPopup(popup_e999351fde3ca2531745ae2b32d4ec7f)
+        ;
+
+        
+    
+    
+            var marker_c1ad53fc7db370f3125e4d0732b7070d = L.marker(
+                [-9.93027159354307, -36.55048941570419],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_ed86b72d553f75dad72bed6725386a70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c1f7e1ca99993e23ac1a19027a88d9b = $(`<div id="html_7c1f7e1ca99993e23ac1a19027a88d9b" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (São Sebastião)<br> Rua Agripino SIlveira, s/n, Bairro Cruzeiro - CEP: 57275-000 <br> São Sebastião </div>`)[0];
+                popup_ed86b72d553f75dad72bed6725386a70.setContent(html_7c1f7e1ca99993e23ac1a19027a88d9b);
+            
+        
+
+        marker_c1ad53fc7db370f3125e4d0732b7070d.bindPopup(popup_ed86b72d553f75dad72bed6725386a70)
+        ;
+
+        
+    
+    
+            var marker_cfb40d73d27557147ed4db01852babaa = L.marker(
+                [-9.60490564410508, -37.76047734538462],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_fbf5a155bd358c6300b211c4a3f1b85b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66076ccf5f02f744e12097f238dcfa26 = $(`<div id="html_66076ccf5f02f744e12097f238dcfa26" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Piranhas)<br> Av. Batalha, s/n, Bairro N. Senhora da Saúde - CEP: 57460-000 <br> Piranhas </div>`)[0];
+                popup_fbf5a155bd358c6300b211c4a3f1b85b.setContent(html_66076ccf5f02f744e12097f238dcfa26);
+            
+        
+
+        marker_cfb40d73d27557147ed4db01852babaa.bindPopup(popup_fbf5a155bd358c6300b211c4a3f1b85b)
+        ;
+
+        
+    
+    
+            var marker_05da7a0080825c8ef964e8945fe713d1 = L.marker(
+                [-9.500536400653274, -37.83229619253612],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_dd958943f6f4abba9664f5e7ef2fc89b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a45fba3f7870573c051c4bc1677c141 = $(`<div id="html_4a45fba3f7870573c051c4bc1677c141" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Olho d'Água do Casado)<br> Rua João Francisco Soares, s/n, Bairro Centro - CEP: 57470-000 <br> Olho d'Água do Casado </div>`)[0];
+                popup_dd958943f6f4abba9664f5e7ef2fc89b.setContent(html_4a45fba3f7870573c051c4bc1677c141);
+            
+        
+
+        marker_05da7a0080825c8ef964e8945fe713d1.bindPopup(popup_dd958943f6f4abba9664f5e7ef2fc89b)
+        ;
+
+        
+    
+    
+            var marker_b43b943d23de7a1af24bcd4dd662a6d5 = L.marker(
+                [-9.673185306781745, -37.12798028092265],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_5fb28a1f80dcccef76de14b000e23185 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_208294069115cbf09a3dd3480ad94a1b = $(`<div id="html_208294069115cbf09a3dd3480ad94a1b" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Batalha)<br> Rua 22 de Dezembro, s/n, Bairro Centro - CEP: 57420-000 <br> Batalha  </div>`)[0];
+                popup_5fb28a1f80dcccef76de14b000e23185.setContent(html_208294069115cbf09a3dd3480ad94a1b);
+            
+        
+
+        marker_b43b943d23de7a1af24bcd4dd662a6d5.bindPopup(popup_5fb28a1f80dcccef76de14b000e23185)
+        ;
+
+        
+    
+    
+            var marker_f98bca6f1abf9e89a09647d8627e3ee4 = L.marker(
+                [-9.22536787345779, -37.75014893346089],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_4a44021db85ad62b3ab9d7b57f078d8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aff8fec563cd5c4ddbfe1d5b0b448a55 = $(`<div id="html_aff8fec563cd5c4ddbfe1d5b0b448a55" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Inhapi)<br> Rua Senador Rui Palmeira, nº 113, Bairro Centro - CEP: 57545-000 <br> Inhapi </div>`)[0];
+                popup_4a44021db85ad62b3ab9d7b57f078d8c.setContent(html_aff8fec563cd5c4ddbfe1d5b0b448a55);
+            
+        
+
+        marker_f98bca6f1abf9e89a09647d8627e3ee4.bindPopup(popup_4a44021db85ad62b3ab9d7b57f078d8c)
+        ;
+
+        
+    
+    
+            var marker_e96e4e5e9fd5d0b25e742ae7dddac0bb = L.marker(
+                [-9.398151317796168, -36.99242360755387],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_2aa6383b1d653f63b3c53ad902f3f3f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a8e676689c0764224ee516a41df998d = $(`<div id="html_4a8e676689c0764224ee516a41df998d" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (Cacimbinhas)<br> Rua N. Senhora da Penha, s/n, Bairro Centro - CEP: 57570-000 <br> Cacimbinha </div>`)[0];
+                popup_2aa6383b1d653f63b3c53ad902f3f3f9.setContent(html_4a8e676689c0764224ee516a41df998d);
+            
+        
+
+        marker_e96e4e5e9fd5d0b25e742ae7dddac0bb.bindPopup(popup_2aa6383b1d653f63b3c53ad902f3f3f9)
+        ;
+
+        
+    
+    
+            var marker_b08a7dc24440cecee15f0f139508a49c = L.marker(
+                [-9.366020118395678, -37.25452040169292],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_eec23400146a44983480c5e7837d70aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca74c2be144b551c48fd7f4786200b0a = $(`<div id="html_ca74c2be144b551c48fd7f4786200b0a" style="width: 100.0%; height: 100.0%;">Base Regionalizada do SAMU (Santana do Ipanema)<br> Rua Lions, n° 64, Bairro Camuxinga - CEP: 57500-000 <br> Santana do Ipanema </div>`)[0];
+                popup_eec23400146a44983480c5e7837d70aa.setContent(html_ca74c2be144b551c48fd7f4786200b0a);
+            
+        
+
+        marker_b08a7dc24440cecee15f0f139508a49c.bindPopup(popup_eec23400146a44983480c5e7837d70aa)
+        ;
+
+        
+    
+    
+            var marker_792215032d62cc2761e456dc7b8672bc = L.marker(
+                [-10.28287934187705, -36.56029669257526],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_87ee581b644237978c90c22c409f7bef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab725f72c1152c765715a0262dfa22ea = $(`<div id="html_ab725f72c1152c765715a0262dfa22ea" style="width: 100.0%; height: 100.0%;">Base Regionalizada do SAMU (Penedo)<br> Rua Duque de Caxias, s/n, Bairro Santa Luzia - CEP: 57200-000 <br> Penedo </div>`)[0];
+                popup_87ee581b644237978c90c22c409f7bef.setContent(html_ab725f72c1152c765715a0262dfa22ea);
+            
+        
+
+        marker_792215032d62cc2761e456dc7b8672bc.bindPopup(popup_87ee581b644237978c90c22c409f7bef)
+        ;
+
+        
+    
+    
+            var marker_42e44dcc4bedb54a0712c6ed8dab00ef = L.marker(
+                [-10.18934508287816, -36.83549375153491],
+                {
+}
+            ).addTo(map_2626f59e0086bfda6effe7a8f3763f7c);
+        
+    
+        var popup_4ff7989092009f6fa62f60067ea8d378 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbde37e22cef435e1284fcba0368db33 = $(`<div id="html_fbde37e22cef435e1284fcba0368db33" style="width: 100.0%; height: 100.0%;">Base Descentralizada do SAMU (P. Real do Colégio)<br> Rua Barão do Rio Branco, s/n, (Conjuto Tancredo Neves) Bairro Centro - CEP: 57290-000  <br>Porto Real do Colégio </div>`)[0];
+                popup_4ff7989092009f6fa62f60067ea8d378.setContent(html_fbde37e22cef435e1284fcba0368db33);
+            
+        
+
+        marker_42e44dcc4bedb54a0712c6ed8dab00ef.bindPopup(popup_4ff7989092009f6fa62f60067ea8d378)
+        ;
+
+        
+    
+</script>
+</html>
